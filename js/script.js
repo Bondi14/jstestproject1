@@ -23,9 +23,18 @@
 // const answer = +prompt("what?", "100");
 // console.log(typeof(answer));
 
-const answers =[];
+ //const answers =[];
 
-answers[0] = prompt('what?', '');
-answers[1] = prompt('the?', '');
-answers[2] = prompt('hack?', '');
+// answers[0] = prompt('what?', '');
+// answers[1] = prompt('the?', '');
+// answers[2] = prompt('hack?', '');
+
+// document.write(answers);
+
+// console.log(typeof(answers));
+// console.log(typeof(null));
+
+const category = 'toys';
+
+console.log(`www.url.com/${category}/5`);
 
