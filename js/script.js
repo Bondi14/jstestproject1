@@ -1,3 +1,4 @@
+"use strict";
 // let number = 5;
 // const leftBorderWidth = 1;
 
@@ -34,7 +35,33 @@
 // console.log(typeof(answers));
 // console.log(typeof(null));
 
-const category = 'toys';
+// const category = 'toys';
 
-console.log(`www.url.com/${category}/5`);
+// console.log(`www.url.com/${category}/5`);
+
+// console.log(4 + +'5');
+
+// let incr = 10,
+//     decr = 10;
+
+// incr++;
+// decr--;
+
+// ++incr;
+// --decr;
+
+// console.log(incr);
+// console.log(decr);
+
+// console.log(5%2);
+
+// console.log(2*4 != '8');
+
+// console.log(2*4 === '8');
+
+
+const isChecked = false,
+      isClose = false;
+
+console.log(isChecked || !isClose);
 
