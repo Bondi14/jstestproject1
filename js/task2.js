@@ -5,9 +5,13 @@ const inputData = [
     { id: 7, name: 'Item 7' },
    ];
    function normalize(data) {
-        data = {};
+        data = {
+            entities: {},
+            byId: []
+        };
         inputData.forEach(function(item, i, inputData) {
-            data[item.id] = item;
+            data.entities[item.id] = item;
+            data.byId.push(item.id);
     });
     return data;
    }
