@@ -34,3 +34,21 @@ let answ = +prompt("Hello", "");
 // To boolean
 
 // 0, '', null, undefined, NaN; - false !!!!!!!!!
+
+let switcher = null; 
+
+if (switcher) {
+    console.log('Working...');
+}
+
+switcher = 1;
+
+if (switcher) {
+    console.log('Working...');
+}
+
+// 2) 
+console.log(typeof(Boolean('4')));
+
+// 3)
+console.log(typeof(!!"444"));
