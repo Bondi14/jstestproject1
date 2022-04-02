@@ -1,21 +1,25 @@
 "use strict";
 
-const box = document.getElementById('box');
-console.log(box);
+const box = document.getElementById('box'),
+      btns = document.getElementsByTagName('button'),
+      circles = document.getElementsByClassName('circle'),
+      hearts = document.querySelectorAll('.heart');
 
-const btns = document.getElementsByTagName('button');
-console.log(btns[1]);
-
-const circles = document.getElementsByClassName('circle');
-console.log(circles);
-
-const hearts = document.querySelectorAll('.heart');
-
-console.log(hearts);
-
+    console.log(hearts);
+    box.style.background = 'blue';
+    box.style.cssText = "";
+ 
 hearts.forEach(item => {
     console.log(item);
 });
 
 const oneHeart = document.querySelector('.heart');
-console.log(oneHeart);
+    console.log(oneHeart);
+
+const div = document.createElement('div');
+
+div.classList.add('black');
+
+document.body.append(div);
+
+div.innerHTML = "Hello world";
